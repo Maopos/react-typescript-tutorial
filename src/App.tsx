@@ -1,16 +1,18 @@
 import "./App.css";
-import Person from "./components/Person";
-import Greet from "./components/Greet";
-import PersonList from "./components/PersonList";
-import Status from "./components/Status";
-import Heading from "./components/Heading";
-import Oscar from "./components/Oscar";
-import Button from "./components/Button";
-import Input from "./components/Input";
-import Container from "./components/Container";
+// import Person from "./components/Person";
+// import Greet from "./components/Greet";
+// import PersonList from "./components/PersonList";
+// import Status from "./components/Status";
+// import Heading from "./components/Heading";
+// import Oscar from "./components/Oscar";
+// import Button from "./components/Button";
+// import Input from "./components/Input";
+// import Container from "./components/Container";
+import LoggedIn from "./components/state/LoggedIn";
+import User from "./components/state/User";
 
 function App() {
-  //
+  //  
   const personName = {
     first: "Mauricio",
     last: "Posada",
@@ -35,7 +37,7 @@ function App() {
   return (
     <div className="App">
       <div className="App-header">
-        <Greet name={"Mauricio Posada"} message={10} isLogged={true} />
+        {/* <Greet name={"Mauricio Posada"} message={10} isLogged={true} />
         <hr />
         <Person personName={personName} />
         <hr />
@@ -53,6 +55,9 @@ function App() {
         <Button handleClick={handleClick} />
         <Input value={""} handleChange={(e) => console.log(e.target.value)} />
         <Container styles={styles} />
+        <hr /> */}
+        <LoggedIn />
+        <User />
       </div>
     </div>
   );
