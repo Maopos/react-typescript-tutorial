@@ -22,7 +22,7 @@ const Props = () => {
   ];
 
   const handleClick = (e: React.MouseEvent, id: number) => {
-    console.log("Click on button...", e, id);
+    console.log("Click on button...", e.type, id);
   };
 
   const styles = {

@@ -8,6 +8,7 @@ import Context from "./views/Context";
 import UseRef from "./views/UseRef";
 import Class from "./views/Class";
 import Component from "./views/Component";
+import Generics from './views/Generics';
 
 function App() {
   const divStyles = {
@@ -45,7 +46,8 @@ function App() {
             <Route path="/context" element={<Context />} />
             <Route path="/useref" element={<UseRef />} />
             <Route path="/class" element={<Class />} />
-            <Route path="/component" element={<Component/>} />
+            <Route path="/component" element={<Component />} />
+            <Route path="/generics" element={<Generics />} />
           </Routes>
         </Router>
       </div>

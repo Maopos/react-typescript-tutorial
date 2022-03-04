@@ -13,9 +13,9 @@ const Component = () => {
   return (
     <div>
       <Private
-        isLoggedIn={isLoggedIn}
         Component={Profile}
         handleToggle={handleToggle}
+        isLoggedIn={isLoggedIn}
       />
     </div>
   );

@@ -10,7 +10,11 @@ const NavBar = ({ divStyles, navLinkStyles, titleStyles }: Props) => {
   return (
     <div style={divStyles}>
       <div>
-        <h2 style={titleStyles}>React + Tsx</h2>
+        <h2 style={titleStyles}>
+          <NavLink style={navLinkStyles} to="/">
+            React + Tsx
+          </NavLink>{" "}
+        </h2>
       </div>
       <div style={{ marginRight: "80px" }}>
         <NavLink style={navLinkStyles} to="/">
@@ -33,6 +37,9 @@ const NavBar = ({ divStyles, navLinkStyles, titleStyles }: Props) => {
         </NavLink>
         <NavLink style={navLinkStyles} to="/component">
           Component
+        </NavLink>
+        <NavLink style={navLinkStyles} to="/generics">
+          GenericProps
         </NavLink>
       </div>
     </div>

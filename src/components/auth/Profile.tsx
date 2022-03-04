@@ -5,7 +5,7 @@ export type ProfileProps = {
 const Profile = ({ name }: ProfileProps) => {
   return (
     <div>
-      <h3>Private Profile Component. Name is {name}</h3>
+      <h3>{name} Private Profile Component.</h3>
     </div>
   );
 };
