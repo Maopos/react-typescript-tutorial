@@ -3,20 +3,19 @@ import { NavLink } from "react-router-dom";
 type Props = {
   divStyles: React.CSSProperties;
   navLinkStyles: React.CSSProperties;
-  titleStyles: React.CSSProperties;
 };
 
-const NavBar = ({ divStyles, navLinkStyles, titleStyles }: Props) => {
+const NavBar = ({ divStyles, navLinkStyles }: Props) => {
   return (
     <div style={divStyles}>
       <div>
-        <h2 style={titleStyles}>
+        <h2>
           <NavLink style={navLinkStyles} to="/">
             React + Tsx
           </NavLink>{" "}
         </h2>
       </div>
-      <div style={{ marginRight: "80px" }}>
+      <div style={{ margin: "20px" }}>
         <NavLink style={navLinkStyles} to="/">
           Inicio
         </NavLink>
@@ -43,6 +42,9 @@ const NavBar = ({ divStyles, navLinkStyles, titleStyles }: Props) => {
         </NavLink>
         <NavLink style={navLinkStyles} to="/restriction">
           RestrictingProps
+        </NavLink>
+        <NavLink style={navLinkStyles} to="/literal">
+          TemplateLiterals
         </NavLink>
       </div>
     </div>
