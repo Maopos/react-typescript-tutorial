@@ -41,6 +41,9 @@ const NavBar = ({ divStyles, navLinkStyles, titleStyles }: Props) => {
         <NavLink style={navLinkStyles} to="/generics">
           GenericProps
         </NavLink>
+        <NavLink style={navLinkStyles} to="/restriction">
+          RestrictingProps
+        </NavLink>
       </div>
     </div>
   );

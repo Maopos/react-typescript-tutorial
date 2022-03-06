@@ -8,7 +8,8 @@ import Context from "./views/Context";
 import UseRef from "./views/UseRef";
 import Class from "./views/Class";
 import Component from "./views/Component";
-import Generics from './views/Generics';
+import Generics from "./views/Generics";
+import RestrictingProps from "./views/RestrictingProps";
 
 function App() {
   const divStyles = {
@@ -48,6 +49,7 @@ function App() {
             <Route path="/class" element={<Class />} />
             <Route path="/component" element={<Component />} />
             <Route path="/generics" element={<Generics />} />
+            <Route path="/restriction" element={<RestrictingProps />} />
           </Routes>
         </Router>
       </div>
