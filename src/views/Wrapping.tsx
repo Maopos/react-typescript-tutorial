@@ -1,4 +1,5 @@
 import Button from "../components/html/Button";
+import CustomComponent from "../components/html/CustomComponent";
 import Input from "../components/html/Input";
 
 const Wrapping = () => {
@@ -13,6 +14,7 @@ const Wrapping = () => {
         Primary Button
       </Button>
       <Input />
+      <CustomComponent name="Mauricio" isLogged={false} />
     </div>
   );
 };

@@ -12,7 +12,7 @@ const Saludo: React.FC<SaludoProps> = (props) => {
     <h3>
       {props.isLogged
         ? `Hi ${props.name}, you have ${message} new messages...`
-        : "Welcome Guess..."}
+        : "Welcome Guess!, login please..."}
     </h3>
   );
 };
