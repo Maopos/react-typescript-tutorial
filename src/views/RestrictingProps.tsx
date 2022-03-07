@@ -1,5 +1,6 @@
 import RandomNumber from "../components/restriction/RandomNumber";
 
+
 const RestrictingProps = () => {
   return (
     <div>

@@ -46,6 +46,9 @@ const NavBar = ({ divStyles, navLinkStyles }: Props) => {
         <NavLink style={navLinkStyles} to="/literal">
           TemplateLiterals
         </NavLink>
+        <NavLink style={navLinkStyles} to="/wrapping">
+          Wrapping
+        </NavLink>
       </div>
     </div>
   );

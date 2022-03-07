@@ -10,7 +10,8 @@ import Class from "./views/Class";
 import Component from "./views/Component";
 import Generics from "./views/Generics";
 import RestrictingProps from "./views/RestrictingProps";
-import TemplateLiteral from './views/TemplateLiteral';
+import TemplateLiteral from "./views/TemplateLiteral";
+import Wrapping from "./views/Wrapping";
 
 function App() {
   const divStyles = {
@@ -41,6 +42,7 @@ function App() {
             <Route path="/generics" element={<Generics />} />
             <Route path="/restriction" element={<RestrictingProps />} />
             <Route path="/literal" element={<TemplateLiteral />} />
+            <Route path="/wrapping" element={<Wrapping />} />
           </Routes>
         </Router>
       </div>
