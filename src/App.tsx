@@ -12,6 +12,7 @@ import Generics from "./views/Generics";
 import RestrictingProps from "./views/RestrictingProps";
 import TemplateLiteral from "./views/TemplateLiteral";
 import Wrapping from "./views/Wrapping";
+import Polymorphic from "./views/Polymorphic";
 
 function App() {
   const divStyles = {
@@ -43,6 +44,7 @@ function App() {
             <Route path="/restriction" element={<RestrictingProps />} />
             <Route path="/literal" element={<TemplateLiteral />} />
             <Route path="/wrapping" element={<Wrapping />} />
+            <Route path="/poly" element={<Polymorphic />} />
           </Routes>
         </Router>
       </div>

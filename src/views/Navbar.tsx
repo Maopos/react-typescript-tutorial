@@ -49,6 +49,9 @@ const NavBar = ({ divStyles, navLinkStyles }: Props) => {
         <NavLink style={navLinkStyles} to="/wrapping">
           Wrapping
         </NavLink>
+        <NavLink style={navLinkStyles} to="/poly">
+          Polymorphics
+        </NavLink>
       </div>
     </div>
   );
